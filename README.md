@@ -37,7 +37,7 @@ Os dados apresentados no app são baseados em informações reais coletadas via 
 ## 📱 Telas e Fluxo de Navegação
 
 <p align="center">
-  <img src=" https://github.com/user-attachments/assets/5672a390-161f-4fe2-b287-a2cc7fa93699" width="18%" />
+  <img src="https://github.com/user-attachments/assets/5672a390-161f-4fe2-b287-a2cc7fa93699" width="18%" />
   <img src="https://github.com/user-attachments/assets/f2443cf1-f30f-4334-baf5-dce4232c0907" width="18%" />
   <img src="https://github.com/user-attachments/assets/283bb7c2-11cb-47e2-8bb9-ce5dd6857df3" width="18%" />
   <img src="https://github.com/user-attachments/assets/daab2f43-d577-4249-a858-da19d3629905" width="18%" />
