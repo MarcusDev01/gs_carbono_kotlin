@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.github.marcusdev01.gscarbono.app-mergeDebugResources-51:/values-v30/values-v30.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\marcu\\.gradle\\caches\\9.0.0\\transforms\\043addbf449443f682e06be3bf740129\\transformed\\material3-release\\res\\values-v30\\values-v30.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "72",
+                        "endOffsets": "123"
+                    }
+                }
+            ]
+        }
+    ]
+}
