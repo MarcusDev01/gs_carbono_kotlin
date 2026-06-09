@@ -38,10 +38,10 @@ Os dados apresentados no app são baseados em informações reais coletadas via 
 
 <p align="center">
   <img src=" https://github.com/user-attachments/assets/5672a390-161f-4fe2-b287-a2cc7fa93699" width="18%" />
-  <img src="URL_HOME" width="18%" />
-  <img src="URL_EMISSOES" width="18%" />
-  <img src="URL_SATELITES" width="18%" />
-  <img src="URL_SOBRE" width="18%" />
+  <img src="https://github.com/user-attachments/assets/f2443cf1-f30f-4334-baf5-dce4232c0907" width="18%" />
+  <img src="https://github.com/user-attachments/assets/283bb7c2-11cb-47e2-8bb9-ce5dd6857df3" width="18%" />
+  <img src="https://github.com/user-attachments/assets/daab2f43-d577-4249-a858-da19d3629905" width="18%" />
+  <img src="[URL_SOBRE](https://github.com/user-attachments/assets/d6e75f77-36df-4e89-bfa7-f50469f0bd48)" width="18%" />
 </p>
 
 <p align="center">
