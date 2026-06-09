@@ -32,80 +32,39 @@ Os dados apresentados no app são baseados em informações reais coletadas via 
 
 ---
 
+
+
 ## 📱 Telas e Fluxo de Navegação
 
-```
-┌─────────────────────────────────────────────────────┐
-│                   HomeScreen                        │
-│  (Tela Inicial)                                     │
-│                                                     │
-│  🌍  GS Carbono — Monitoramento via Satélite        │
-│                                                     │
-│  [Resumo: Total CO₂ / Registros / Satélites]        │
-│                                                     │
-│  → [Emissões Registradas]  ──────────────────────┐  │
-│  → [Satélites Ativos]      ───────────────────┐  │  │
-│  → [Sobre o Projeto]       ────────────────┐  │  │  │
-└─────────────────────────────────────────────┼──┼──┼──┘
-                                              │  │  │
-                    ┌─────────────────────────┘  │  │
-                    ▼                            │  │
-        ┌─────────────────────┐                 │  │
-        │   SobreScreen       │                 │  │
-        │  (Tela Sobre)       │                 │  │
-        │                     │                 │  │
-        │  Objetivo / ODS /   │                 │  │
-        │  Stack / Autor      │                 │  │
-        │                     │                 │  │
-        │  [← Voltar]         │                 │  │
-        └─────────────────────┘                 │  │
-                                                │  │
-                    ┌───────────────────────────┘  │
-                    ▼                              │
-        ┌─────────────────────┐                   │
-        │   SatelitesScreen   │                   │
-        │  (Tela Satélites)   │                   │
-        │                     │                   │
-        │  LazyColumn com     │                   │
-        │  cards de cada      │                   │
-        │  satélite ativo     │                   │
-        │                     │                   │
-        │  [← Voltar]         │                   │
-        └─────────────────────┘                   │
-                                                  │
-                    ┌─────────────────────────────┘
-                    ▼
-        ┌─────────────────────┐
-        │   EmissoesScreen    │
-        │  (Lista Emissões)   │
-        │                     │
-        │  Filtros por Setor  │
-        │  (FilterChip)       │
-        │                     │
-        │  LazyColumn com     │
-        │  cards de emissão   │
-        │                     │
-        │  [card clicável] ───┐
-        │  [← Voltar]         │
-        └─────────────────────┘
-                              │
-                              ▼
-              ┌──────────────────────────┐
-              │   EmissaoDetalheScreen   │
-              │  (Detalhe da Emissão)    │
-              │                          │
-              │  Fonte / CO₂ total /     │
-              │  Setor / Data /          │
-              │  Lat + Long /            │
-              │  Descrição completa      │
-              │                          │
-              │  🛰️ Monitorado via sat.  │
-              │                          │
-              │  [← Voltar para lista]   │
-              └──────────────────────────┘
-```
+<p align="center">
+  <img src="URL_SPLASH" width="18%" />
+  <img src="URL_HOME" width="18%" />
+  <img src="URL_EMISSOES" width="18%" />
+  <img src="URL_SATELITES" width="18%" />
+  <img src="URL_SOBRE" width="18%" />
+</p>
 
----
+<p align="center">
+  Splash &nbsp;→&nbsp; Home &nbsp;→&nbsp; Emissões &nbsp;→&nbsp; Satélites &nbsp;→&nbsp; Sobre
+</p>
+
+A navegação é gerenciada pelo **Navigation Compose** com 5 telas e passagem de parâmetro via rota:
+
+```
+┌─────────┐     ┌──────────┐     ┌────────────────┐
+│ Splash  │ ──▶ │   Home   │ ──▶ │    Emissões    │
+└─────────┘     └──────────┘     └───────┬────────┘
+                     │                   │
+                     ▼                   ▼
+               ┌──────────┐     ┌────────────────┐
+               │ Satélites│     │ Detalhe Emissão│
+               └──────────┘     └────────────────┘
+                     │
+                     ▼
+               ┌──────────┐
+               │  Sobre   │
+               └──────────┘
+```
 
 ## 🗂️ Estrutura do Projeto
 
