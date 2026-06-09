@@ -37,7 +37,7 @@ Os dados apresentados no app são baseados em informações reais coletadas via 
 ## 📱 Telas e Fluxo de Navegação
 
 <p align="center">
-  <img src="<img width="182" height="381" alt="Image" src="https://github.com/user-attachments/assets/5672a390-161f-4fe2-b287-a2cc7fa93699" />" width="18%" />
+  <img src="<img width="182" https://github.com/user-attachments/assets/5672a390-161f-4fe2-b287-a2cc7fa93699 />" width="18%" />
   <img src="URL_HOME" width="18%" />
   <img src="URL_EMISSOES" width="18%" />
   <img src="URL_SATELITES" width="18%" />
